@@ -8,3 +8,4 @@
 - Version control: Git, github
 - CICD: github actions that invoke bazel
 - Releasing: github release tags, with built binaries attached.
+- Prod architecture: generally uses systemd to call the outputs of a bazel build. Actual underlying infrastructure varies a lot.
